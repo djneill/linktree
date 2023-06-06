@@ -6,6 +6,7 @@ module.exports = {
     './public/js/main.js',
     './public/cs/style.css',
     './public/index.html',
+    './*.{html,js}'
   ],
   keyframes: {
     wiggle: {
