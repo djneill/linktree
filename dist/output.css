@@ -556,26 +556,6 @@ video {
   }
 }
 
-.start-0 {
-  inset-inline-start: 0px;
-}
-
-.start-5 {
-  inset-inline-start: 1.25rem;
-}
-
-.start-1 {
-  inset-inline-start: 0.25rem;
-}
-
-.start-2 {
-  inset-inline-start: 0.5rem;
-}
-
-.float-left {
-  float: left;
-}
-
 .m-6 {
   margin: 1.5rem;
 }
@@ -630,32 +610,12 @@ video {
   flex-grow: 1;
 }
 
-.flex-grow-0 {
-  flex-grow: 0;
-}
-
 .cursor-pointer {
   cursor: pointer;
 }
 
-.place-content-start {
-  place-content: start;
-}
-
-.content-center {
-  align-content: center;
-}
-
-.content-start {
-  align-content: flex-start;
-}
-
 .items-center {
   align-items: center;
-}
-
-.justify-start {
-  justify-content: flex-start;
 }
 
 .justify-center {
@@ -670,23 +630,32 @@ video {
   border-radius: 9999px;
 }
 
+.border-2 {
+  border-width: 2px;
+}
+
+.border-cyan-700 {
+  --tw-border-opacity: 1;
+  border-color: rgb(14 116 144 / var(--tw-border-opacity));
+}
+
 .bg-blue-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(59 130 246 / var(--tw-bg-opacity));
 }
 
-.bg-gradient-to-l {
-  background-image: linear-gradient(to left, var(--tw-gradient-stops));
+.bg-gradient-to-r {
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
 
-.from-sky-400 {
-  --tw-gradient-from: #38bdf8 var(--tw-gradient-from-position);
-  --tw-gradient-to: rgb(56 189 248 / 0) var(--tw-gradient-to-position);
+.from-cyan-200 {
+  --tw-gradient-from: #a5f3fc var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(165 243 252 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
-.to-indigo-900 {
-  --tw-gradient-to: #312e81 var(--tw-gradient-to-position);
+.to-cyan-400 {
+  --tw-gradient-to: #22d3ee var(--tw-gradient-to-position);
 }
 
 .p-2 {
@@ -708,6 +677,16 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.shadow-lg {
+  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+h1 {
+  text-shadow: 2px 2px 4px #000000;
 }
 
 @keyframes bounce {
