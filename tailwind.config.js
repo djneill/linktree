@@ -2,11 +2,9 @@ module.exports = {
   content: [
     './components/**/*.{html,js}',
     './pages/**/*.{html,js}',
-    '.public/*.{html,js}',
-    './public/js/main.js',
-    './public/cs/style.css',
-    './public/index.html',
-    './*.{html,js}'
+    '.public/**/*.{html,js}',
+    '.public/js/*.js',
+    './index.html'
   ],
   keyframes: {
     wiggle: {

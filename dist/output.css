@@ -556,6 +556,26 @@ video {
   }
 }
 
+.start-0 {
+  inset-inline-start: 0px;
+}
+
+.start-5 {
+  inset-inline-start: 1.25rem;
+}
+
+.start-1 {
+  inset-inline-start: 0.25rem;
+}
+
+.start-2 {
+  inset-inline-start: 0.5rem;
+}
+
+.float-left {
+  float: left;
+}
+
 .m-6 {
   margin: 1.5rem;
 }
@@ -578,20 +598,16 @@ video {
   margin-left: 1rem;
 }
 
+.mr-12 {
+  margin-right: 3rem;
+}
+
 .mt-10 {
   margin-top: 2.5rem;
 }
 
 .mt-12 {
   margin-top: 3rem;
-}
-
-.mr-8 {
-  margin-right: 2rem;
-}
-
-.mr-12 {
-  margin-right: 3rem;
 }
 
 .flex {
@@ -614,16 +630,32 @@ video {
   flex-grow: 1;
 }
 
-.transform {
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+.flex-grow-0 {
+  flex-grow: 0;
 }
 
 .cursor-pointer {
   cursor: pointer;
 }
 
+.place-content-start {
+  place-content: start;
+}
+
+.content-center {
+  align-content: center;
+}
+
+.content-start {
+  align-content: flex-start;
+}
+
 .items-center {
   align-items: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
 }
 
 .justify-center {
@@ -692,12 +724,6 @@ video {
 
 .hover\:animate-bounce:hover {
   animation: bounce 1s infinite;
-}
-
-.hover\:shadow-md:hover {
-  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .hover\:shadow-lg:hover {
